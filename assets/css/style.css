@@ -1,0 +1,316 @@
+.mainbanner {
+  width: 100%;
+  height: 635px;
+  background-image: url(../images/banner/banner.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(0.9);
+}
+
+
+.navbar {
+  position: absolute;
+  top: 20px;
+  margin-left: 95px;
+}
+
+.nav-link {
+  color: rgb(206, 202, 202);
+  margin-left: 20px;
+}
+
+.nav-link:hover {
+  color: rgb(255, 20, 20);
+  text-decoration: underline;
+}
+
+.icons {
+  position: relative;
+  left: 50%;
+}
+
+.icon:hover {
+  color: rgb(255, 20, 20);
+}
+
+.icon {
+  color: white;
+  margin-left: 16px;
+}
+
+.bg_red {
+  background-color: red;
+  padding-bottom: 26px;
+}
+
+.menu_heading {
+  color: white;
+}
+
+.menu_para {
+  color: rgb(179, 141, 141);
+  line-height: 1.7;
+}
+
+
+/* ..................////////////////// */
+
+.outline {
+  background-color: #f6f8fa;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.background {
+  background-color: white;
+}
+
+.banner_button {
+  background-color: red;
+  padding: 13px 30px 13px 30px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.banner_button:hover {
+  background: transparent;
+  color: red;
+}
+
+.banner_text {
+  margin-top: 100px;
+}
+
+.fast_food {
+  background-color: red;
+  padding: 8px;
+  display: inline;
+  font-size: 14px;
+  font-weight: 900;
+}
+.carousel_css{
+  width: 85%;
+  margin-top: 19px;
+  margin-left: 143px;
+}
+
+
+.banner_heaidng {
+  font-size: 107px;
+}
+
+.tasty {
+  background-color: red;
+  margin-top: 100px;
+  padding: 13px;
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.buttoncss {
+  color: red;
+  background-color: white;
+  font-size: 15px;
+}
+
+.buttoncss:hover {
+  color: white;
+  background-color: red;
+}
+
+/* .............../close//////////////// */
+/* images-section start...............//////////// */
+
+.badgecss {
+  background-color: red;
+  padding: 5px 14px 0px 14px;
+  border-radius: 0px;
+}
+
+.ordercss {
+  color: white;
+  border: 1px solid white;
+  padding: 8px 30px 8px 30px;
+}
+
+.ordercss:hover {
+  background-color: white;
+  color: black;
+}
+
+.red {
+  color: red;
+}
+
+.standard_burger {
+  font-size: 43px;
+}
+
+/* ...........////////////////////////// */
+.social {
+  background-color: #232323;
+}
+
+.iconcss {
+  color: red;
+}
+
+.iconcss:hover {
+  color: white;
+}
+
+.carousel_text {
+  background-color: red;
+  padding: 5px 8px 0px 8px;
+}
+
+.text {
+  margin-left: 108px;
+  font-size: 19px;
+  margin-top: 80px;
+}
+
+.order_now {
+  background: transparent;
+  border-color: red;
+  color: red;
+  font-weight: 600;
+  padding: 10px 24px 10px 24px;
+  margin-top: 15px;
+}
+
+.order_now:hover {
+  background: red;
+  color: white;
+}
+
+.iconcss1 {
+  color: red;
+  float: left;
+}
+
+.iconcss1:hover {
+  color: white;
+}
+
+.timing {
+  margin-left: 89px;
+  font-size: 16px;
+}
+
+.social {
+  padding: 107px;
+  font-size: 24px;
+}
+
+.call_us {
+  background-color: red;
+  border: red;
+  margin-bottom: 10px;
+}
+
+.social_icon {
+  margin-top: 30px;
+
+  background-color: white;
+  padding: 7px 9px 7px 9px;
+}
+
+.social_icon:hover {
+  background-color: black;
+  color: white;
+}
+
+.allicons {
+  margin-left: -72px;
+}
+
+.footer {
+  background-color: red;
+}
+
+.download {
+  float: right;
+  border: 1px solid white;
+  background-color: red;
+  padding: 14px 33px 14px 33px;
+  margin-right: 154px;
+}
+
+.download:hover {
+  background-color: white;
+  color: black;
+}
+
+.anchor {
+  float: right;
+  margin-right: 42px;
+  color: black;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.anchor:hover {
+  color: red;
+  text-decoration: none;
+}
+
+
+
+
+/* .......................//////////////END..............//////// */
+
+/* ....................START MEDIA QUERY........///////////////// */
+/* ...................... FOR MOBILE & SMALL SCREEN .............////////////  */
+
+@media only screen and (max-width:767px){
+  .icon_media{
+    
+    position: relative;
+    padding: 25.2px;
+    right: 121px;
+  }
+
+  .navbar-dark .navbar-toggler {
+    /* color: rgba(255,255,255,.5);
+    border-color: rgba(255,255,255,.1); */
+}
+
+  .logo_img{
+    margin-left: 110px;
+    width: 22%;
+    margin-top: 22px;
+}
+.banner_heaidng {
+  font-size: 44px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+.banner_text {
+  
+  margin-left: 40px;
+}
+.social {
+  
+  font-size: 17px;
+  }
+  .media_num{
+    font-size: 17px;
+  }
+  .timing {
+    margin-left: 64px;
+    font-size: 11px;
+}
+.allicons {
+  margin-left: -47px;
+}
+
+    
+
+
+}
+
+
+
